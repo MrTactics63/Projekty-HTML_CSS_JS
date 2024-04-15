@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Korepetyce na sześć</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container1">
+            <div class="left_side">
+                <div class="profiletext">
+                    <div class="logobox">
+                        <img src="logo.png">
+                    </div>
+                <h2>Korepetycje na sześć</h2>
+                </div>
+                <div class="slogan">
+                    <h3>Nauka jeszcze nigdy nie była taka prosta!</h3>
+                </div>
+            </div>
+            <div class="right_side">
+                <div class="advertisment">
+                    <p>Odkryj tajemnice nauki z moimi korepetycjami!</p>
+                    <p>Daję Ci klucz do sukcesu, oferując indywidualne zajęcia z matematyki, fizyki, historii i WOSu.</p>
+                    <p>Zapewniam nie tylko wsparcie w zdobywaniu wiedzy, ale także inspiruję do osiągnięcia wyższych celów akademickich.</p>
+                    <p>Zbuduj swoją pewność siebie i rozwijaj umiejętności w przyjaznej i motywującej atmosferze.</p>
+                    <p>Razem odkryjemy Twoje prawdziwe możliwości!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container2">
+            <div class="left_side">
+                <div class="photobox">
+                        <img src="photo.jpg">
+                </div>
+            </div>
+            <div class="right_side">
+                <h2>O mnie</h2>
+                <br>
+                <br>
+                    <p>Cześć!</p>
+                    <p>Mam na imię Grzegorz i z wykształcenia jestem nauczycielem, programistą oraz trenerem personalnym</p>
+                    <p>Od wielu lat wspieram rozwój młodzieży w zakresie nauk ścisłych jak i humanistycznych</p>
+                    <p>Do moich zainteresowań należą: lekkoatletyka, programowanie oraz modelarstwo</p>
+            </div>
+        </div>
+
+
+        <div class="container3">
+            <div class="left_side">
+                <div class="profiletext1">
+                    <h1>Cennik usług</h1>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Money_Flat_Icon.svg">
+                </div>
+            </div>
+            <div class="right_side">
+                <table>
+                    <tr>
+                        <td>Usługa</td><td>Cena</td>
+                    </tr>
+                    <tr>
+                        <td>1h w tygodniu</td><td>50zł</td>
+                    </tr>
+                    <tr>
+                        <td>5h w tygodniu</td><td>200zł</td>
+                    </tr>
+                    <tr>
+                        <td>20h w tygodniu</td><td>800zł</td>
+                    </tr>
+                    <tr>
+                        <td>Przygotowanie do egzaminu ósmoklasisty - 1h w tygodniu</td><td> 60zł</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="container4">
+            <div class="left_side">
+                <div class="profiletext2">
+                    <h1>Formularz kontaktowy</h1>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Google_Contacts_icon.svg">
+                </div>
+            </div>
+            <div class="right_side">
+                <div id="formularz-kontaktowy" class="contact" role="dialog" aria-label="Formularz kontaktowy" aria-hidden="true">
+                    <form class="emailForm" method="POST" action="https://formspree.io/f/xzbnklbe">
+                        <label class="half" aria-live="polite">Twój email<input class="form-data" name="email" type="email" placeholder="Wpisz tu twój email" required>
+                        </label>
+                        <label class="half" aria-live="polite">Temat<input class="form-data" name="_subject" placeholder="Wpisz tu temat wiadomości" minlength="4" maxlength="78"required>
+                        </label>
+                        <label aria-live="polite">Wiadomość<textarea class="form-data" name="message" placeholder="Wpisz tu twoją wiadomość" minlength="4"maxlength="6000" required></textarea>
+                        </label>
+                        <button class="emailFormSubmit main-btn" name="submit" type="submit">Wyślij</button>
+                        <div class="emailFormAlert" aria-live="polite">
+                        </div>
+                    </form>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="js/emailform.js"></script>
+    </body>
+</html>
