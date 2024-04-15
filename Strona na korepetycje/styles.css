@@ -317,7 +317,7 @@ table tfoot a{
     background: #ffff;
     margin: 30px;
     border-radius: 45px;
-    padding: 40px;
+    padding: 100px;
     font-size: 20px;
     font-weight: 600;
     text-align: left;
@@ -341,10 +341,10 @@ table tfoot a{
   }
   
   .contact form textarea {
-    height: 100px;
+    height: 200px;
     width: 100%;
-    max-width: 500px;
-  
+    max-width: 400px;
+    margin-bottom: 20px;
 
   }
   
@@ -365,4 +365,34 @@ table tfoot a{
   .emailFormAlert {
     margin-top: 20px;
     color: red;
+  }
+  footer {
+    position: relative;
+    width: 100%;
+    max-width: 1500px;
+    min-height: 100px;
+    background: #303331;
+    margin: 40px;
+    border-radius: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 35px 35px #040404ce;
+  }
+  
+  footer h2,
+  footer h3 {
+    color: #fff;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 200;
+    line-height: 10px;
+    text-shadow: 1px -1px 40px black;
+  }
+  
+  footer h2 i,
+  footer h3 i {
+    color: white;
   }
